@@ -1,0 +1,16 @@
+{
+  "name": "sort_study_area",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sort_study_area.js",
+  "dependencies": {
+    "fs": "^0.0.2",
+    "xml2js": "^0.4.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
