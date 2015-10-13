@@ -41,11 +41,11 @@ function _write_html(res) {
     item = res[i];
     
     /*
-    <option value="Journalism">
+    <option value="journalism">
       Journalism
     </option>
     */
-    buffer += '<option value="' + item + '">' + item + '</option>';
+    buffer += '<option value="' + item.toLowerCase() + '">' + item + '</option>';
   }
 
   console.log(buffer); 
